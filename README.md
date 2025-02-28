@@ -17,6 +17,7 @@ id (String)
 nama_produk (String)  
 harga_produk (int)  
 stok_produk (int)  
+  
 Kelas ini menjadi dasar bagi kategori produk lainnya, seperti aksesoris dan baju.  
   
 **2. Aksesoris (Child dari PetShop)**  
