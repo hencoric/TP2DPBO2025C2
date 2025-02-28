@@ -33,3 +33,12 @@ Kelas Baju adalah turunan dari Aksesoris dengan atribut tambahan pada kelas ini:
 untuk (String)  
 size (String  
 merk (String)  
+
+# Alur Program  
+
+Diawal sistem akan menampilkan daftar barang yang sudah tersedia dan sistem menggunakan 2 menu, dimana user bisa memilih menu menggunakan nomor yang sesuai.  
+  
+1 -> untuk menambahkan data  
+2 -> untuk keluar sistem  
+
+Jika user salah memasukkan nomor, sistem akan menampilkan error dan akan di arahkan ke menu lagi.
