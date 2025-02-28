@@ -49,9 +49,9 @@ Mainan_Gigitan
 Aksesoris
 Karet
 Biru
-Anjing
-S
-Ysl
+-
+-
+-
 
 1
 A003
@@ -61,8 +61,8 @@ Tempat_Makan
 Aksesoris
 Stainless_Steel
 Silver
-Kucing
-L
-Chanel
+-
+-
+-
   
 ======================================================================================================================
