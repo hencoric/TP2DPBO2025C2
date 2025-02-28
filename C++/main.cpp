@@ -151,11 +151,11 @@ int main()
     int harga_produk, stok_produk;
     char pilihan;
 
-    list.push_back(Baju("B001", "Kaos Polos", 120000, 50, "Kaos", "Katun", "Hitam", "Unisex", "L", "Nike"));
-    list.push_back(Baju("B002", "Jaket Hoodie", 250000, 30, "Jaket", "Fleece", "Abu-abu", "Pria", "XL", "Adidas"));
-    list.push_back(Baju("B003", "Kemeja Formal", 300000, 20, "Kemeja", "Linen", "Putih", "Pria", "M", "Zara"));
-    list.push_back(Baju("B004", "Blouse Casual", 180000, 40, "Blouse", "Sifon", "Merah", "Wanita", "S", "H&M"));
-    list.push_back(Baju("B005", "Celana Jeans", 350000, 25, "Celana", "Denim", "Biru", "Unisex", "32", "Levi's"));
+    list.push_back(Baju("B001", "Kaos Polos", 120000, 50, "Kaos", "Katun", "Hitam", "Anjing", "L", "Nike"));
+    list.push_back(Baju("B002", "Jaket Hoodie", 250000, 30, "Jaket", "Fleece", "Abu-abu", "Kucing", "XL", "Adidas"));
+    list.push_back(Baju("B003", "Kemeja Formal", 300000, 20, "Kemeja", "Linen", "Putih", "Anjing", "M", "Zara"));
+    list.push_back(Baju("B004", "Blouse Casual", 180000, 40, "Blouse", "Sifon", "Merah", "Kucing", "S", "H&M"));
+    list.push_back(Baju("B005", "Celana Jeans", 350000, 25, "Celana", "Denim", "Biru", "Anjing", "32", "Levi's"));
 
     while (true) // looping menu utama
     {
