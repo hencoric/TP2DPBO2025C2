@@ -42,27 +42,27 @@ XS_S
 Gucci
 
 1
-B009
-Hoodie
-350000
-30
-Pakaian
-Fleece
-Merah_Hitam
+A002
+Mainan_Gigitan
+100000
+60
+Aksesoris
+Karet
+Biru
 Anjing
-L_XL
-Nike
+S
+Ysl
 
 1
-B010
-Winter_Jacket
-450000
-25
-Pakaian
-Down
-Coklat_Krem
+A003
+Tempat_Makan
+200000
+30
+Aksesoris
+Stainless_Steel
+Silver
 Kucing
-M_XXL
-NorthFace
+L
+Chanel
   
 ======================================================================================================================
