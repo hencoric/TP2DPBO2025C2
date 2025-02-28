@@ -131,7 +131,7 @@ public class Main {
         System.out.println();
     }
 
-        public static void tampilkanPembatas(ArrayList<Integer> panjang) {
+    public static void tampilkanPembatas(ArrayList<Integer> panjang) {
         System.out.print("+");
         for (int i = 0; i < panjang.size(); i++) {
             for (int j = 0; j < panjang.get(i) + 2; j++) {
