@@ -34,6 +34,16 @@ untuk (String) → Menentukan apakah baju ini untuk anjing, kucing, atau lainnya
 size (String) → Ukuran pakaian hewan, seperti S, M, L, atau ukuran khusus.  
 merk (String) → Merek dari baju, misalnya Adidas, Puma, atau merek lainnya.  
 
+## Method  
+
+dalam setiap class masing-masing atribut terdapat getter dan setter dimana  
+  
+getter → bertugas untuk mengambil data dari masing-masing atribut  
+setter → bertugas untuk mengubah data dari masing-masing atribut  
+display → bertugas untuk menampilkan data dari masing-masing atribut 
+**note method display :**  
+dalam class akksesoris dan baju, method display menggunakan override, artinya method display() di aksesoris akan menambahkan atribut tambahan di samping method display() dari petShop, dan display() di baju juga akan menambahkan atribut lebih lanjut dari aksesoris.    
+  
 # Alur Program  
 
 Diawal sistem akan menampilkan daftar barang yang sudah tersedia dan sistem menggunakan 2 menu, dimana user bisa memilih menu menggunakan nomor yang sesuai.  
