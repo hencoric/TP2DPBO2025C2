@@ -123,25 +123,44 @@ public class Main {
         System.out.print("|");
         for (int i = 0; i < headers.length; i++) {
             System.out.print(" " + headers[i]);
-            System.out.print(" ".repeat(panjang.get(i) - headers[i].length()) + " |");
+            for (int j = 0; j < panjang.get(i) - headers[i].length(); j++) {
+                System.out.print(" ");
+            }
+            System.out.print(" |");
         }
         System.out.println();
     }
 
-    // fungsi buat nampilin garis pemisah di tabel
-    public static void tampilkanPembatas(ArrayList<Integer> panjang) {
+        public static void tampilkanPembatas(ArrayList<Integer> panjang) {
         System.out.print("+");
-        for (Integer p : panjang) {
-            System.out.print("-".repeat(p + 2) + "+");
+        for (int i = 0; i < panjang.size(); i++) {
+            for (int j = 0; j < panjang.get(i) + 2; j++) {
+                System.out.print("-");
+            }
+            System.out.print("+");
         }
         System.out.println();
     }
+
 
     // fungsi buat nampilin data produk dalam bentuk tabel
     public static void tampilkanData(ArrayList<Baju> list, ArrayList<Integer> panjang) {
         for (Baju b : list) {
-            System.out.printf("| %-" + panjang.get(0) + "s | %-" + panjang.get(1) + "s | %-" + panjang.get(2) + "d | %-" + panjang.get(3) + "d | %-" + panjang.get(4) + "s | %-" + panjang.get(5) + "s | %-" + panjang.get(6) + "s | %-" + panjang.get(7) + "s | %-" + panjang.get(8) + "s | %-" + panjang.get(9) + "s |\n", 
-                b.getId(), b.getNama(), b.getHarga(), b.getStok(), b.getJenis(), b.getBahan(), b.getWarna(), b.getUntuk(), b.getSize(), b.getMerk());
+            System.out.print("|");
+
+            String[] data = {
+                b.getId(), b.getNama(), String.valueOf(b.getHarga()), String.valueOf(b.getStok()),
+                b.getJenis(), b.getBahan(), b.getWarna(), b.getUntuk(), b.getSize(), b.getMerk()
+            };
+
+            for (int i = 0; i < data.length; i++) {
+                System.out.print(" " + data[i]);
+                for (int j = 0; j < panjang.get(i) - data[i].length(); j++) {
+                    System.out.print(" ");
+                }
+                System.out.print(" |");
+            }
+            System.out.println();
         }
     }
 }
