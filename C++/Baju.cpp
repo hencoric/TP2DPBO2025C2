@@ -65,7 +65,7 @@ public:
     // buat nampilin info baju
     void display()
     {
-        Aksesoris::display(); // panggil display dari aksesoris
+        Aksesoris::display(); // panggil display dari aksesoris biar atribut umum tetep ditampilin
         cout << " | untuk: " << untuk
              << " | size: " << size
              << " | merk: " << merk << '\n';
