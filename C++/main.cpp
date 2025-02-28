@@ -155,7 +155,7 @@ int main()
     list.push_back(Baju("B002", "Jaket_Hoodie", 250000, 30, "Pakaian", "Fleece", "Abu-abu", "Kucing", "XL", "Adidas"));
     list.push_back(Baju("B003", "Kemeja_Formal", 300000, 20, "Pakaian", "Linen", "Putih", "Anjing", "M", "Zara"));
     list.push_back(Baju("B004", "Blouse_Casual", 180000, 40, "Pakaian", "Sifon", "Merah", "Kucing", "S", "H&M"));
-    list.push_back(Baju("B005", "Celana_Jeans", 350000, 25, "Aksesoris", "Denim", "Biru", "Anjing", "32", "Levi's"));
+    list.push_back(Baju("B005", "Kalung", 350000, 25, "Aksesoris", "Kulit", "Biru", "Anjing", "-", "Hermes"));
 
     while (true) // looping menu utama
     {
