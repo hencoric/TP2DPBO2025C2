@@ -67,7 +67,7 @@ public:
     // buat nampilin info aksesoris
     void display()
     {
-        PetShop::display(); // panggil display dari petshop
+        PetShop::display(); //panggil display dari aksesoris biar atribut umum tetep ditampilin
         cout << " | jenis: " << jenis
              << " | bahan: " << bahan
              << " | warna: " << warna;
