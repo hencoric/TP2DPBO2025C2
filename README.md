@@ -17,6 +17,7 @@ id (String) → Kode unik untuk mengidentifikasi setiap produk.
 nama_produk (String) → Nama dari produk yang dijual.  
 harga_produk (int) → Harga produk.  
 stok_produk (int) → Jumlah produk yang tersedia dalam stok.  
+foto_produk (int) → foto produk yang tersedia dalam stok.  
   
 Kelas ini menjadi dasar bagi kategori produk lainnya, seperti aksesoris dan baju.  
   
