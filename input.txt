@@ -70,11 +70,11 @@ UNTUK PHP INI BENTUKNYA FORM DAN HARUS MENG-UPLOAD FOTO
 ======================================================================================================================
 
 A003
-Tempat_Makan
+Tempat Makan
 200000
 30
 Aksesoris
-Stainless_Steel
+Stainless Steel
 Silver
 -
 -
