@@ -4,7 +4,7 @@ Saya Marco Henrik Abineno dengan NIM 2301093 mengerjakan evaluasi Latihan Modul 
 
 # DIAGRAM
   
-![Screenshot 2025-03-01 172139](https://github.com/user-attachments/assets/fd04ef65-9b74-47a8-acd3-df96d5ae70c6)
+![Screenshot 2025-03-01 172224](https://github.com/user-attachments/assets/b87c2503-9e7a-439c-9599-2bb251629e47)
 
 # DESAIN PRODUK
 
