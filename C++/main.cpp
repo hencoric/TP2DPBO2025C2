@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// fungsi buat cari panjang maksimum tiap kolom biar tabel rapi
 vector<int> hitungPanjangMaksimum(vector<Baju> &list)
 {
     vector<int> panjang(10, 0);
@@ -17,7 +16,7 @@ vector<int> hitungPanjangMaksimum(vector<Baju> &list)
     panjang[8] = string("Size").length();
     panjang[9] = string("Merk").length();
 
-    for (Baju &b : list)  // cek tiap data di list buat update panjang maksimum
+    for (Baju &b : list)
     {
         panjang[0] = max(panjang[0], (int)b.get_id().length());
         panjang[1] = max(panjang[1], (int)b.get_nama().length());
@@ -34,7 +33,6 @@ vector<int> hitungPanjangMaksimum(vector<Baju> &list)
     return panjang;
 }
 
-// fungsi buat nampilin header tabel
 void tampilkanHeader(vector<int> panjang)
 {
     cout << "| ID";
@@ -70,7 +68,6 @@ void tampilkanHeader(vector<int> panjang)
     cout << " |\n";
 }
 
-// fungsi buat nampilin garis pembatas tabel
 void tampilkanPembatas(vector<int> panjang)
 {
     cout << "+";
@@ -106,7 +103,6 @@ void tampilkanPembatas(vector<int> panjang)
     cout << "+\n";
 }
 
-// fungsi buat nampilin data baju dalam format tabel
 void tampilkanData(vector<Baju> &list, vector<int> panjang)
 {
     for (Baju &b : list)
