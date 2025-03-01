@@ -37,3 +37,4 @@ class Aksesoris extends PetShop {
         $this->warna = $warna;
     }
 }
+?>
