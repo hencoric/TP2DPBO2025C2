@@ -106,7 +106,7 @@ def main():
 
             # masukin data baru ke list
             list_baju.append(Baju(id, nama, harga, stok, jenis, bahan, warna, untuk, size, merk))
-            print("\nproduct sukses ditambahkan!")
+            print("\nProduct sukses ditambahkan!")
 
             # tampilin tabel yang udah diperbarui
             panjang = hitung_panjang_maksimum(list_baju)
@@ -118,14 +118,14 @@ def main():
 
         elif pilihan == '2':
             # keluar dari program
-            print("terima kasih telah menggunakan program ini!")
+            print("Terima kasih telah menggunakan program ini!")
             break
         else:
             # kalau input ga valid
-            print("pilihan tidak valid! silakan pilih 1 atau 2.")
+            print("Pilihan tidak valid! silakan pilih 1 atau 2.")
     
-        input("\ntekan enter untuk kembali ke menu...")
+        input("\nTekan enter untuk kembali ke menu...")
 
-# cek apakah file ini dijalankan langsung
+# cek kalau file ini dijalankan langsung, bukan diimport
 if __name__ == "__main__":
-    main()
+    main() # panggil main ()
