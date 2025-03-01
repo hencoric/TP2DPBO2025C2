@@ -4,7 +4,7 @@ Saya Marco Henrik Abineno dengan NIM 2301093 mengerjakan evaluasi Latihan Modul 
 
 # DIAGRAM
   
-![image](https://github.com/user-attachments/assets/8fdab942-8331-4ff3-aef8-c3556900b041)
+![Screenshot 2025-03-01 172139](https://github.com/user-attachments/assets/fd04ef65-9b74-47a8-acd3-df96d5ae70c6)
 
 # DESAIN PRODUK
 
@@ -40,11 +40,7 @@ merk (String) → Merek dari baju, misalnya Adidas, Puma, atau merek lainnya.
 dalam setiap class masing-masing atribut terdapat getter dan setter dimana  
   
 getter → bertugas untuk mengambil data dari masing-masing atribut  
-setter → bertugas untuk mengubah data dari masing-masing atribut  
-display → bertugas untuk menampilkan data dari masing-masing atribut   
-  
-**note method display :**  
-dalam class akksesoris dan baju, method display menggunakan override, artinya method display() di aksesoris akan menambahkan atribut tambahan di samping method display() dari petShop, dan display() di baju juga akan menambahkan atribut lebih lanjut dari aksesoris.    
+setter → bertugas untuk mengubah data dari masing-masing atribut    
   
 # ALUR PROGRAM  
 
