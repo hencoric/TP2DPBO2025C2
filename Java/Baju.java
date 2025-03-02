@@ -12,8 +12,7 @@ public class Baju extends Aksesoris {
     }
 
     // constructor yang pake parameter biar langsung bisa set data pas buat objek
-    public Baju(String id, String namaProduk, int hargaProduk, int stokProduk, String jenis, String bahan, String warna,
-            String untuk, String size, String merk) {
+    public Baju(String id, String namaProduk, int hargaProduk, int stokProduk, String jenis, String bahan, String warna, String untuk, String size, String merk) {
         super(id, namaProduk, hargaProduk, stokProduk, jenis, bahan, warna); // manggil constructor dari aksesoris
         this.untuk = untuk;
         this.size = size;
