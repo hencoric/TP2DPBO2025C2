@@ -14,8 +14,7 @@ public class Main {
 
         // masukin beberapa data awal biar ga kosong pas program jalan
         list.add(new Baju("B001", "Kaos_Polos", 120000, 50, "Pakaian", "Katun", "Hitam", "Anjing", "L", "Nike"));
-        list.add(
-                new Baju("B002", "Jaket_Hoodie", 250000, 30, "Pakaian", "Fleece", "Abu-abu", "Kucing", "XL", "Adidas"));
+        list.add(new Baju("B002", "Jaket_Hoodie", 250000, 30, "Pakaian", "Fleece", "Abu-abu", "Kucing", "XL", "Adidas"));
         list.add(new Baju("B003", "Kemeja_Formal", 300000, 20, "Pakaian", "Linen", "Putih", "Anjing", "M", "Zara"));
         list.add(new Baju("B004", "Blouse_Casual", 180000, 40, "Pakaian", "Sifon", "Merah", "Kucing", "S", "H&M"));
         list.add(new Baju("A001", "Kalung", 350000, 25, "Aksesoris", "Kulit", "Biru", "-", "-", "-"));
