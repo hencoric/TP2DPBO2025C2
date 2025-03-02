@@ -1,5 +1,7 @@
 #include "Aksesoris.cpp"
 
+using namespace std;
+
 // class baju, turunan dari aksesoris
 class Baju : public Aksesoris
 {
